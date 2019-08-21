@@ -1,0 +1,4 @@
+#!/bin/sh
+cmd="${1:-start}" 
+set -ex
+systemctl $cmd  osmo-ggsn osmo-sgsn  osmo-nitb osmo-bts-trx osmo-pcu 

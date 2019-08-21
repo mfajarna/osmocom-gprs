@@ -1,0 +1,1 @@
+osmo-trx-uhd -C  trx.cfg 
